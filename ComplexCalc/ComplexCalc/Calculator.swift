@@ -54,5 +54,9 @@ class Calculator {
         total = total/counter;
         return total;
     }
+    func mathOp(lhs: Int, rhs: Int, op: (Int, Int) -> Int) -> Int {
+        let total = op(lhs,rhs);
+        return total;
+    }
     
 }
